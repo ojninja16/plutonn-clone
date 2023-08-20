@@ -1,0 +1,82 @@
+.profileCard{
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 2px 16px rgba(0,0,0,.15);
+    box-shadow: 4px 2px 16px rgba(0,0,0,.15);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 310px;
+    padding: 0 40px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.login_status{
+    padding-top: 70px;
+    
+}
+.login_status h3{
+    font-weight: bold;
+    color:black ;
+    
+}
+.profile_cool_log{
+    display: block;
+    position: relative;
+}
+
+.profile_cool_logo{
+    left: 50%;
+    position: absolute;
+    top: -35%;
+    -webkit-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+}
+
+.logo_outside{
+    transform: rotate(90deg);
+    width: 110px;
+    height: 110px;
+    border-radius: unset;
+}
+
+.logo_inside{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 3px #d3d3d3;
+}
+
+.login_btn{
+    border-radius: 15px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 2px 8px rgba(0,0,0,.15);
+    box-shadow: 3px 2px 8px rgba(0,0,0,.15);
+    color: var(--white);
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: var(--fs-small);
+    font-weight: 500;
+    color: white;
+    gap: 12px;
+    justify-content: center;
+    line-height: 27px;
+    padding: 8px 24px;
+}
+
+.login_btn:hover{
+    background-color: var(--primary);
+}

@@ -1,0 +1,117 @@
+
+.community_header{
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header_display{
+    display: grid;
+    grid-template-columns: 70px auto;
+    align-items: center;
+}
+
+.community_join{
+    display:flex;
+    gap:5px;
+    align-items:center;
+    border-radius: 12px;
+    padding: 0px 7px;
+}
+
+.content_type{
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 59px;
+    width: 100%;
+}
+.content_type a{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.community_topbar{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.content_type a:hover{
+    background-color: #0810101A;
+}
+
+.community_joinbtn{
+    display: grid;
+    grid-template-columns: 40px auto;
+    gap: 10px;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+
+.community_joinbtn button{
+    background-color: var(--primary);
+    border-radius: 1000px;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(0,0,0,.15);
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,.15);
+    display: -ms-flexbox;
+    display: flex;
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.community_joinbtn button:hover{
+    background-color: var(--primary);
+}
+
+.posts{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.post_content{
+    overflow: hidden;
+    line-height: 15px;
+}
+.truncated{
+    margin-bottom: 10px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-height: 20px;
+    white-space: pre-line;
+    width: 100%;
+    height: 68px;
+}
+
+.img_holder{
+    width: 100%;
+    display: flex;
+}
+.img_holder img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
